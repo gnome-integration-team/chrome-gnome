@@ -1,7 +1,7 @@
 {
-  "version":"1",
+  "version":"1.0.1",
   "name":"Adwaita (GNOME 3)",
-  "description":"Make Chrome fit in with GNOME 3's new look!\n\nThis theme is compatible with \"System Title Bars & Borders\" & Chrome's managed window.",
+  "description":"Make Chrome fit in with GNOME 3's new look!\n\nThis theme is compatible with \"System Title Bar & Borders\" & Chrome's managed window.",
   "icons": { "128": "icon-128.png" },
   "theme":{
     "images":{
