@@ -13,11 +13,10 @@
       "theme_tab_background_incognito": "images/theme_tab_background.png"
     },
     "colors": {
-      // 48, 53, 53
       "frame": [ 57, 63, 63 ],
       "frame_inactive": [ 57, 63, 63 ],
-      "frame_incognito": [ 57, 110, 166 ],
-      "frame_incognito_inactive": [ 57, 110, 166 ],
+      "frame_incognito": [ 94, 94, 94 ],
+      "frame_incognito_inactive": [ 94, 94, 94 ],
       "toolbar": [ 57, 63, 63 ],
       "tab_text": [ 238, 238, 236 ],
       "tab_background_text": [ 147, 150, 149 ],
