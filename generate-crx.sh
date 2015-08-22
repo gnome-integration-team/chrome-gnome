@@ -4,5 +4,9 @@ set -e
 
 temp="$(mktemp -d)"
 
-google-chrome --user-data-dir="${temp}" --pack-extension="${PWD}"
+for variant in light dark
+do
+	google-chrome --user-data-dir="${temp}" --pack-extension="${PWD}/${variant}"
+done
+
 rm -rf "${temp}"
