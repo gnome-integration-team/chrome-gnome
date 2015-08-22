@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "version": "3.16",
+  "name": "Adwaita Dark (GNOME 3)",
+  "description": "Make Chrome fit in with GNOME 3's new look!\n\nThis theme is compatible with \"System Title Bar & Borders\" & Chrome's managed window.",
+  "icons": { "128": "icon-128.png" },
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_frame_incognito": "images/theme_frame_incognito.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_tab_background": "images/theme_tab_background.png",
+      "theme_tab_background_incognito": "images/theme_tab_background.png"
+    },
+    "colors": {
+      // 48, 53, 53
+      "frame": [ 57, 63, 63 ],
+      "frame_inactive": [ 57, 63, 63 ],
+      "frame_incognito": [ 57, 110, 166 ],
+      "frame_incognito_inactive": [ 57, 110, 166 ],
+      "toolbar": [ 57, 63, 63 ],
+      "tab_text": [ 238, 238, 236 ],
+      "tab_background_text": [ 147, 150, 149 ],
+      "bookmark_text": [ 238, 238, 236 ],
+      "ntp_background": [ 41, 41, 41 ],
+      "ntp_text": [ 238, 238, 236 ],
+      "ntp_link": [ 74, 144, 217 ],
+      "ntp_link_underline": [ 74, 144, 217 ],
+      "ntp_header": [ 209, 209, 209 ],
+      "ntp_section": [ 209, 209, 209 ],
+      "ntp_section_text": [ 238, 238, 236 ],
+      "ntp_section_link": [ 74, 144, 217 ],
+      "ntp_section_link_underline": [ 74, 144, 217 ],
+      "button_background": [ 57, 63, 63, 0 ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 0
+    },
+    "tints": {
+      "buttons": [ -1, -1, -1 ],
+      "frame": [ -1, -1, -1 ],
+      "frame_inactive": [ -1, -1, -1 ],
+      "frame_incognito": [ -1, -1, -1 ],
+      "frame_incognito_inactive": [ -1, -1, -1 ],
+      "background_tab": [ -1, -1, -1 ]
+    }
+  }
+}
